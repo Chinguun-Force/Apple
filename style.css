@@ -1,0 +1,522 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.lg {
+    width: 1920px;
+}
+
+.md {
+    width: 768px;
+}
+
+.sm {
+    width: 390px;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: #FFF;
+}
+
+.txt60 {
+    font-size: 60px;
+}
+
+.txt48 {
+    font-size: 48px;
+}
+
+.txt36 {
+    font-size: 36px;
+}
+
+.txt18 {
+    font-size: 18px;
+}
+
+.txt24 {
+    font-size: 24px;
+}
+
+.txt12 {
+    font-size: 12px;
+}
+
+.button {
+    height: 44px;
+    border-radius: 980px;
+    padding: 12px 22px;
+    border: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.button-blue {
+    background-color: #0071E3;
+    color: #FFF;
+}
+
+.button-blue-idle {
+    border: 1px solid #2997FF;
+    background: transparent;
+}
+
+.button-blue-idle a {
+    color: #2997FF;
+}
+
+.button-idle {
+    border: 1px solid #F5F5F7;
+    background: transparent;
+}
+
+.button-white {
+    background-color: #f5f5f7;
+}
+
+.button-white a {
+    color: black;
+}
+
+button a {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    gap: 17px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* --------------------- */
+
+#first {
+    width: 100%;
+    position: sticky;
+    background-color: #F5F5F7CC;
+    top: 0;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+#NavMD {
+    width: 100%;
+    position: sticky;
+    background-color: #F5F5F7CC;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    padding: 16px;
+    display: none;
+}
+.menu{
+    display: flex;
+    gap: 32px;
+}
+
+.full {
+    width: 100%;
+}
+
+.top-center {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 50px;
+}
+.top-center3 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 50px;
+}
+.bot-center {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+    max-width: 1150px;
+    margin: 0px auto;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+}
+
+.UNav {
+    text-align: center;
+    height: 52px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+.z10 {
+    z-index: 10;
+}
+
+.hero {
+    width: 100%;
+    height: 70vh;
+
+}
+
+#banner1 {
+    background-image: url(./assets/home/16pro-big_tcumjm.png);
+    background-size: cover;
+}
+
+#banner2 {
+    background-image: url(./assets/home/16-big_vupnjf.png);
+    background-size: cover;
+}
+
+#banner3 {
+    background-image: url(./assets/home/gift-big_tkeasr.png);
+    background-size: cover;
+    height: 70vh;
+}
+.section .ipad>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 60px;
+}
+.section .ipad>div>div img{
+    width: 200px;
+    height: 39px;
+    margin-bottom: 12px;
+    opacity: 0px;
+}
+.ipad {
+    background-image: url(./assets/home/ipadair-big_c3qmex.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.centered-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centered-content h1 {
+    font-family: Inter;
+    font-size: 51.41px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.2800000011920929px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.centered-content h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.flex-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns */
+    grid-auto-rows: auto;
+    gap: 10px;
+}
+
+.mini-banner {
+    width: 100%;
+    height: 50vh;
+}
+
+.section .ipad {
+    display: none;
+}
+
+#flex1 {
+    background-image: url("https://s3-alpha-sig.figma.com/img/da86/2da9/442f25fda2746d5c8c6f9ec5d93a3101?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SKplMm~ZY1IaTM-wBja29hmZ~nb1EAw081clekrW1m6zQcxx7lLdWtMBGplKbvuoU-DghkGJ5wp6IsN~ZuHUeY2teSnmk8BSmTD8qlWRpRWVzga3UVshbg88l73MIG9ym7wDbQFmB79oKV0uWcNhJLuTIlzrj52NmVpBLnLNjfk~wmTnlU40uJUGbVPHaBujJklV67O30~P-ZNR3jDSN235dqB8raSOImhOzmNEfRgrtGO8~eBYzcGlkAzDHGvU9SaLj058szrkOlS7Oej8eIrfpQmNZlMu0BqHxeFnHHT1Z7hyY8XHiSdzjhjuVT1FP1-4Uk31SPtDmR~LiZtjRcQ__");
+    display: none;
+}
+
+#flex2 {
+    background-image: url("https://s3-alpha-sig.figma.com/img/ff94/8cac/d279c7a6da7b42f7259842d3eef7e869?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BCgPf9JWjgy3uvaJl4GxL4gddVDm5ntRlUU0YF6XkcxCgtrqGYFk2xjKN0eT1QK2qzcKnFqnWJjFCEyF6VKpHVIryNixuBnM2GwZOL0gq680N058lKwJd0V0yYSb3qqG2hhInShjpCvabV1u1MBX09EJ4IJ0~xAFBAEQqdhzlFuiDicpcnbLND8tKAMzztuHj0SQ2d9uZU81tAQ7iO064ThbFy3l9wzUJ8wUOh5s8pu4fsF6wZet3Ih~ehlaDBVuBA3Xzqp2ZEgRBlAX9McXd~EGBkZ4iCry2kNEhHhwurRP6tmfU9PTSADH1gA~bKRysHGKYE~-aXKG6TWByzbCdQ__");
+}
+
+#flex3 {
+    background-image: url(./assets/home/watch-big_bbeokg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#flex4 {
+    background-image: url(./assets/home/macbookair-big_u3rgpd.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#flex5 {
+    background-image: url(./assets/home/business-med_znvb5u.png);
+    background-size: contain;
+    background-position: bottom;
+    display: none;
+}
+
+#flex6 {
+    background-image: url("https://s3-alpha-sig.figma.com/img/746c/1b2b/65a2e4b11fef8ab2ad8c64e76020395a?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HWodCB4sbmyxU66z9S7g64OEk-WrMe-90ZeEKcJ9thOu8SOapwGgYq6QhrJgm7ZkcuasJebAAssfa0UNu0qB6LXlO55FO4pezMdxuZbknf9z7VeoGXc513JtnKf0NBuGWAITLuQLJDLcx9OUW3~ncyUURm1uHNlkiz9vmPBr9j3BDHBMoaqPkUvtv1RyBm7EOkcr-XVfaDLqm-zCW~cza29pxzlE~DHSTOUY-8aDer7h~eLLyaCrVz9Z38s0tdOusxXQMVEhyUVGZTC-L1wr0hjt8Pb8GqQU6A0HKk9OGooJxwnnk5wm8KV9PiONQpizEi87MTdPf62v-VMde8Q74A__");
+    background-size: contain;
+    background-position: bottom;
+    display: none;
+}
+
+#flex7 {
+    background-image: url(./assets/home/tradein-big_eiqvdy.png);
+    background-size: cover;
+    /* display: none; */
+}
+
+#flex8 {
+    background-image: url(./assets/home/card-big_cv2bvg.png);
+    background-position: center;
+}
+
+.mainSwiper {
+    display: flex;
+    gap: 15px;
+    overflow-y: hidden;
+    margin: 50px auto;
+}
+
+.swiper {
+    width: 1250px;
+    height: 60vh;
+}
+
+.miniSwipers {
+    width: 417px;
+    height: 23vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#swiperItem1 {
+    background-image: url("https://s3-alpha-sig.figma.com/img/e033/ddcb/5654ccf5071cb9aa881c2777995fe982?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=K5~KaKFij1BD4rp5ONnmS8n3Cu9k8k9KwRnaTpLYeFq2bxGxU7hS1vx~2Z0UPFB7WxcAeu~0po~9GCXM0xWO6QYHmMeXdZBoWxYK8dkc4C7HKk4Z3Kc-f65b8As3s0Bd525RViKbv-LqZv1U-uBvArPjquEEpOjjsfeH8YWoDJE8duJkT7C18s4T~9bmXAnEUn6Cc2tsDdCW2VvE0IlNNzKShWW7BupXTrL7c6MAB0SzchGWv57-o6me7avojT70XH0MkzTIl7kXPU4xicmGWkOHgfOkOZU9T0Ef8j1rRyd82-kDvNdR0CxJqWAqt-ZdvLraFKzctisnRgH4UbVmjA__");
+}
+
+#swiperItem2 {
+    background-image: url("https://s3-alpha-sig.figma.com/img/0df2/4b09/7ab300470fed21a9de19f058cf2906a9?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Rp5QTEPk39unPt-lTjWzO3dw3uhdhCLogsYXTlEOKQjHVMmrx0rXHtJRed2VCI8kodZTfrUWIJ3-cSLpjpNhmbtsDeftg2gqaPYhqLULhSnnxFxb3-fAISaEKvnpPsZ3OzxJMCBdiLz6c5X3IY2P9yC5waEPUIsH7oe0XjxfQ8rbJpXSDjp50kkeRGD78lJFCmEEDbLqwxo2xH7brh57MkmO1dQrgt8R~g1imbtjq2J6g~-9KFyVr7xPSpcejihCusEGZJSCwiJwD2qZVa8Y71cfpr3HN4ZHjpw7ijYAcaWlPik220OXp7Zq-y5QkB6ghmCKNoJCrAgNnU2ySzX1cg__");
+}
+
+#swiperItem3 {
+    background-image: url("https://s3-alpha-sig.figma.com/img/52a9/31e7/04c5646e473e9c81240f4f8a2c23083b?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g6PyZE3sMGPwYLGF5INPwMy0M1V8qTmiy9w1JGgDUjOWLy-aKM-dNlkLlvzVKw2MIsy33SMX7FGN9NELu5wNOdAlSFjCFWx3nc6vskBragxRXXEUYeV2o3dSYWo1ni5seX7faG~myknIKdvo4-BeBLoOqrJxlWUA6SyZ5WU7gfCMG8njlXyGCyAAiFp3QSZbt9IvgbsxMXdljsBc3gAPerQj2rns6-vuaWFY3zEDFeLXUEbiWtyhAspmyMsFNqMoy2JiL9IvJeIgsPHa8bWZuzk92hmyBcOHUrpG16qgAKEHL-qnCAzld-ahrG0Ntb9BcEbNUmpawp~y0wOWnYxNBQ__");
+}
+
+#swiperItem4 {
+    background-image: url("https://s3-alpha-sig.figma.com/img/66bb/5028/21af3f0be46c1fe59c0e12de22c8bbb9?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ekwyPLFTI8Qm0ujPnUYBtJFAMNJiLNNXoj5DKJ~WXTB-WsMVLJrxsUWHscDRowp0F0P5VkobynqIH0yjazF8UZuWbbpn8bLw-EXZ1-G5ZwBteF6qzQM9D197XmPW90FxIFEwTyH86A7uHAoYGJDhGTQehh~CRnPAkex1cfUWeX0G4uQ9hqthuC5hDE6sobU8aLpuWDnDVOhG4CFOqYaRmwJ7tpHhbabIuAuhCwZWCGMTepb0JOjey3onPhk297H5rT3VOvnBhC3Ma7jnjLQlbHZ6P5PBz9UfwdvQw348vgkXf~lDe-BWlrHzdW4cT44smSSfsUR9FEqeMLKkl3OfXw__");
+}
+
+#swiperItem5 {
+    background-image: url("https://s3-alpha-sig.figma.com/img/7255/cf7c/c234a1b7a495df7e34033187a858d846?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PJRqY6VkuhbafkT1Qg99XHS48sTlBxXKSl~Jph2VWSeHrRKiQCa-3kY4EKxhPUwm7CdY5KDuncXbp9bz2t57Pquk3cD0REqbHErutUqOiM~THDkcfIwbTT4Y0ZDXh3Y8jRK8NbLaT6R4GKGiT00gK0JlE2TlfGXWlnX8kHDOp5udFi-dYt5XK-Jap5uvDnw5xblv313lr6I6BX1ittIkPoVCgDjb1tQCJQloCUIaDL0ysEm8zngZpwN~RgkEdecYKEK6PtEImsj-a3P5XcsyGsDDHakgBOf4PtLNOqKZnZwIuoWVgf-2rJzvkkyZ0qlFdyGPwpSk-gV4UHb8c2fiPg__");
+}
+@media only screen and (max-width: 768px) {
+    #first{
+        display: none;
+    }
+    #NavMD{
+        display: flex;
+    }
+    #banner1{
+        background-image: url(./assets/home/16pro-med_l3diwm.png);
+        object-fit: contain;
+        background-position: center;
+    }
+    .centered-content h1{
+        font-family: Helvetica Neue;
+    font-size: 43.88px;
+    font-weight: 700;
+    line-height: 52.01px;
+    letter-spacing: -0.09600000083446503px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
+    .centered-content h2{
+        font-family: Helvetica Neue;
+    font-size: 21.94px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2160000056028366px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
+    #banner2{
+        background-image: url(./assets/home/16-med_ihrqpz.png);
+        object-fit: contain;
+        background-position: center;
+    }
+    #banner3{
+        display: none;
+    }
+    .section .ipad {
+        display: block;
+    }
+    #flex1{
+        display: block;
+    }
+    .flex-banner .ipad{
+        display: none;
+    }
+    #flex3{
+        background-image: url("https://s3-alpha-sig.figma.com/img/a8f4/9036/6130e01428147e18eef7d270e446275c?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pnw8M~b-9AP0DeSFUy6KzJUeKSUZhDB-JZlOkL5Ri9MzpPNeuApolY7snXbsrwstTDpMVP5jS98qzIak5i3X5NHcrM8gZ5kbjiDV21Kpvk-pDKhmhel7cGLl-Y7bx42Hj99Q0C6S0ue8GBXPz0y6zozI-ksniWR07z4gWRltlYlgG45jYMGvl4rVp4toH7xGh48e~pdBrep2MyN9KOzREmzMvf6oPsbsp8~WAej5-aAHmCC5NeD1LZkwlFvyEuHOamy04jBYYvxEXjilWkWPVLydvrYEjp2ntXoTX1tGfaTJQBYk350YsZo3J0TiI5qGNsDlWFpX~DLVL12MQqnQhA__");
+    }
+    #flex5{
+        display: block;
+    }
+    #flex6{
+        display: block;
+    }
+    #flex8{
+        display: none;
+    }
+    .mainSwiper{
+        gap: 12px;
+    }
+    .swiper {
+        width: 720px;
+        height: 35vh;
+    }
+    .miniSwipers{
+        width: 286px;
+        height: 160px;
+    }
+}
+@media only screen and (max-width: 390px){
+    .hero {
+        width: 100%;
+        height: 50vh;
+    }
+    #banner1{
+        background-image: url("https://s3-alpha-sig.figma.com/img/4d61/7ff6/192318499aff8aebb56aaf232c8f00d4?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Sn1CP0HT3dT1NblNyj3XxmnvpHkrPj8j1PzZHp1sWO1meSz09rYjaUsEmXrd1qlbyu854EpcJr7YBGFAymI02toBxqJQz~AlVda~U~lA0dmWyoGmT5RQjEMrfAljWj4EiOQa4BeRCH8qncYbC-O6E-ztFr5dCAk9aPeMTPaVmQC1MaelDtz1QQRQdllYnWnpf9uHjjHeKIZSFtyU9N8P0LrRtFdUczysikPxvkMAJ848AaFcMuUp54mMcGb3PK7NVVwscQezxGaRIZvTO45zDaQxUH6QhhN1RAY8F5q4uMWSTYIMDlF5P9pdkSGbceh~Wc6yafgQDsAbklYj4V6e5A__");
+    }
+    .top-center3 {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding: 50px;
+    }
+    .UNav{
+        margin : 20px auto;
+        padding: 0px;
+    }
+    #banner2{
+        background-image: url("https://s3-alpha-sig.figma.com/img/bca1/4fea/5cc383f10eb575ae23034d12bd94613d?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=B4c3sX45aJkaEYR~AoCwzi-tqnrHE5QuZP3o~7NwBL2p6XoMVsljrUVTT9I6ZNVpAVDHA7wYEuA4k7IZqz1qW2IiaJGENLmG78Zx6p4r71E7ualBbEUuFwh1IbpO8YHiQ7XWwb4CdSB3PrgJtvsvm3qfEvqRgKeABhR737RIbGPhj4SURkXOXIp~logqp6uigYfpb~QQ-iYJghk8E9Z9yZyQAk5j2JcTyh9EQ05SrOHqehWKz16HtLTknwILiWJrZ35zzC-9gueSLyTOQ~OcwL61sqqG08aVJpwHwxYxb~Uo5s8SH99RCacGhxvINiQTHeOdIQvaChUxyDHwY9aJaA__");
+        background-size : cover;    
+        background-position: center;
+    }
+    .centered-content h1{
+        font-family: Helvetica Neue;
+    font-size: 29.75px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.12800000607967377px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    }
+    .centered-content h2{
+        font-size: 17px;
+        font-family: Helvetica Neue;
+        font-size: 17.37px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0.2280000001192093px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    button a {
+        font-size: 14px;
+    }
+    .button{
+        padding: 10px 16px;
+    }
+    .buttons{
+        justify-content: center;
+    }
+    #banner3{
+        background-image: url("https://s3-alpha-sig.figma.com/img/421d/a7b8/6f74db639b131d85fb645c3a6cbc8dbc?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=K0O-S2oxm8jmjbtsFe-pX4ZERUnXL1q2BOOyCDM6NX18uzpUNVwqaQZ1qfYJCCFmK0t5iBOhBO9XRf-9bQJyOQAJUEbkwhGRx28eWilMrcX8HqbrKHQ8HLIqDE4yjCgsefQ6nX9KRfm4LJhaZe5bVrSDYeGmSuS1nk12lUsqFTzqyeeVkVOfYCahd2DjTDmrM02UzgdkfYiLxFqcR3Gth91fOb~eLlLbDmZf35BoS4LzuQlJoTGAOcMzLLRv4NXj3IqXKinT8IQdzEAKf6-MlG8JM1xeJnf8w3MjvWPklqAABc83vt2-~ap8-PYh9m4~i9TJ80RFrqMJjnS1gDqu0w__");
+        background-size: cover;
+        background-position: center;
+    }
+    .flex-banner{
+        display: block;
+    }
+    .mini-banner{
+        display: block;
+        padding: 40px;
+    }
+    .Airpod4 .centered-content{
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;               
+    }   
+    .mini-banner {
+        width: 100%;
+        height: 50vh;
+    }
+    .swiper{
+        width: 289px;
+        height: 495px;
+        left: 50.5px;
+        gap: 0px;
+        opacity: 0px
+    }
+    .swiper>img{
+        object-fit: cover;
+        object-position: center;
+        width: 289px;
+        height: 495px;
+    }
+    .miniSwipers{
+        width: 238px;
+        height: 134px;
+        padding: 10px 10px 10px 62px;
+        gap: 0px;
+        opacity: 0px;
+    }
+}
